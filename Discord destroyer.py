@@ -18,14 +18,13 @@ Number = int(ask_question("The amount of tokens you would like to add and use th
 channel_id = ask_question("Please enter the channel ID you would like to spam:", False)
 Message = ask_question("Please input the message you would like the Selfbot to spam:", True)
 
-tokens = ["OTkxNjk3MzQyMzIxNDEwMDc5.Gl9vU4.hHniuvkpDMEbpxw79vmsWJJRKB7fqT2UdZ3Qc8"]
+tokens = [""]
 for i in range(Number):
     token = ask_token("Please input your token:")
     tokens.append(token)
 dc_tokens = ', '.join(tokens)
 dc_tokens = '"' + dc_tokens + '"'
 dc_tokens = dc_tokens.replace('"', '')
-inv = inv.replace('', '')
 
 print(dc_tokens)
 
